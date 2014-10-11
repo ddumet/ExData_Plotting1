@@ -1,3 +1,18 @@
+## Usage of the plotX.R scripts
+
+This repository contains the 4 plotX.R scripts (plot1.R, plot2.R, etc)
+that generate the plotX.png graphics.
+<b>usage</b>
+* Paste script in R, then run the appropriate function (e.g.
+paste plot1.R and run plot1()
+* The first run of one of the plotX() function will download the
+dataset from the UCI in the local dir, unzip and read all dataset.
+Data for 01-02.02.2007 is then extracted and write into a new file
+(household_1-2-022007.txt in local dir). Run of other plotX() functions
+will use that file.
+* plotX() function generates plotX.png file, again in local dir
+
+
 ## Introduction
 
 This assignment uses data from
